@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        First Name: *<input type="text" name="Fname" required>
+        <br><br>
+        Last Name: *<input type="text" name="Lname" required>
+        <br><br>
+        Email Adress: *<input type="text" name="EmailAdr" required>
+        <br><br>
+        Password: *<input type="password" name="password" required>
+        <br><br>
+        Confirm Password: *<input type="password" name="password" required>
+        <br><br>
+        Birthday: *<input type="date" name="BD" required>
+        <br>
+        <p>Gender Identity:</p>
+        <input type="radio" name="font" value="M" id="M">
+        <label for="M">Male</label>
+        <input type="radio" name="font" value="F" id="F">
+        <label for="F">Female</label>
+        <input type="radio" name="font" value="ipnta" id="ipnta">
+        <label for="ipnta">I prefer not to answer</label>
+        <br>
+        <p>A short description about myself:</p>
+        <textarea name="textarea" rows="3" cols="35"></textarea>
+        <br><br>
+        Favorite Language:<select>
+            <option id="javascript" value="js">JavaScript</option>
+            <option id="java" value="java">Java</option>
+            <option id="python" value="py">Python</option>
+            <option id="other" value="other">Other</option>
+        </select>
+        <br><br>
+        <input type="checkbox">Yes, I would like to recieve periodic email updates
+        <br><br>
+        <button type="submit">Create Account</button>   
+        <p>* indicates a required field</p>
+    </form>
+</body>
+</html>
