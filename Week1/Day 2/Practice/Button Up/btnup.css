@@ -1,0 +1,45 @@
+button {
+    display: block;
+    margin: 2.5%;
+}
+.search {
+    border: 2px solid #119B9D;
+    border-radius: 15px;
+    padding: 2px 0px;
+    height: 30px;
+    width: 140px;
+}
+span {
+    color: #119B9D;
+    font-weight: bold;
+    font-size: 15px;
+}
+.plus {
+    color: #00D1B2;
+    border: 1px solid #00D1B2;
+    border-radius: 50%;
+    background-color: #00D1B2;
+    height: 35px;
+    width: 35px;
+}
+.or {
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
+}
+.CA {
+    background-color: #2B78E4;
+    height: 35px;
+    width: 175px;
+    box-shadow: 4px 3px;
+    border: 2px solid black;
+    padding: 2px 15px;
+}
+.CAcc {
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+}
+body {
+    margin: 5%;
+}
