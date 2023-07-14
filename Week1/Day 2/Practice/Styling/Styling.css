@@ -1,0 +1,27 @@
+span {
+    color: cyan;
+    background-color: black;
+}
+h1 {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    margin: 5px;
+    padding: 2px 15px;
+}
+h2 {
+    text-align: center;
+    background-color: rebeccapurple;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    font-style: italic;
+    padding: 2px 15px;
+}
+h3 {
+    text-align: right;
+    background-color: lightblue;
+    text-decoration: underline;
+    margin: 5px;
+    padding: 2px 15px;
+}
