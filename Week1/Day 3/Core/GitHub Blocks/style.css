@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.first {
+    background-color: #58C4DE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.second {
+    background-color: #C9A5AC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    flex: 1;
+    margin: 10px;
+}
+.third {
+    background-color: #FCFCFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+p {
+    text-align: center;
+    font-weight: light;
+    color: #8C8C95;
+}
+img {
+    height: 200px;
+    padding: 20px;
+}
