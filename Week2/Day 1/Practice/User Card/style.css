@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    font-size: 20px;
+    border: 2px solid #999;
+    border-radius: 5px;
+    margin: 20px 50px;
+}
+
+.image {
+    background-color: #17a2b8;
+    height: 120px;
+    margin-bottom: 60px;
+}
+
+.user {
+    background-color: #fff;
+    border-radius: 50%;
+    height: 170px;
+    padding: 5px;
+    margin: 20px;
+}
+
+
+.info {
+    padding: 20px;
+}
+
+h1, h3, p {
+    margin: 20px 0;
+}
+
+.map {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
