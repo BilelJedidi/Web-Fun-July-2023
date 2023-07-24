@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.user-card {
+    background-color: #fff;
+    font-size: 20px;
+    border: 2px solid #999;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.image {
+    background-color: #17a2b8;
+    height: 120px;
+    margin-bottom: 60px;
+}
+
+.user {
+    background-color: #fff;
+    border-radius: 50%;
+    height: 170px;
+    padding: 5px;
+    margin: 20px;
+    border: solid 2px #999;
+}
+
+
+.info {
+    padding: 20px;
+}
+.info a {
+    color: #2B78E4;
+    align-items: center;
+    text-decoration: underline;
+}
+h1, p {
+    margin: 20px 0;
+}
+
+.map {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
+
+.nav {
+    padding: 0 10%;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    padding: 10px;
+}
+li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+.profile {
+    padding: 10px;
+}
+button {
+    padding: 2px;
+    background-color: #17A2B8;
+    color: white;
+    box-shadow: 3px 3px black;
+    border: solid black;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.top {
+    background-color: #333333;
+    align-items: center;
+    padding: 20px;
+}
+.top h3 {
+    align-items: center;
+    color: white;
+}
+img {
+    height: 40px;
+}
+span {
+    color: #333333;
+    background-color: #CCCCCC;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+.list {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+.list2 {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.span {
+    display: flex;
+    align-items: center;
+}
+
+.right img {
+    margin-right: 10px;
+}
+
+.left {
+    width: 60%;
+    margin: 10px;
+}
+.right {
+    width: 40%;
+    margin: 10px;
+}
+.down {
+    padding: 20px;
+    border-top: solid 2px #999;
+}

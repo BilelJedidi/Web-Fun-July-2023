@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 80px;
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+.navbar {
+    background-color: #CCCCCC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+input {
+    width: 200px;
+    border: solid black 2px;
+    padding: 3px;
+}
+
+button {
+    width: 50px;
+    padding: 2px;
+    background-color: #2B78E4;
+    color: white;
+    border: solid black 2px;
+    box-shadow: 4px 4px black;
+}
+
+.content button {
+    width: 80px;
+    height: 30px;
+    padding: 2px;
+    background-color: #FFD966;
+    color: black;
+    border: solid black 2px;
+    box-shadow: 4px 4px black;
+    font-weight: bold;
+}
+.dojo button {
+    width: 100%;
+    height: 30px;
+    padding: 2px;
+    background-color: #93c47d;
+    color: black;
+    border: solid black 2px;
+    box-shadow: 4px 4px black;
+    font-weight: bold;  
+}
+
+.right {
+    margin-left: 30px;
+}
+
+.ninja {
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 30px;
+    border: 2px solid #999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dojo {
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 30px;
+    border: 2px solid #999;
+}
+
+.content {
+    text-align: center;
+    flex: 1;
+}
+
+.ninja p {
+    flex: 3;
+}
