@@ -7,6 +7,8 @@ body {
     margin: 0 80px;
     background-color: #f3f3f3;
     font-family: 'Roboto', sans-serif;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .container {
@@ -26,13 +28,14 @@ input {
     padding: 3px;
 }
 
-button {
-    width: 50px;
+.navbar button {
+    font-size: 16px;
+    width: 80px;
     padding: 2px;
     background-color: #2B78E4;
     color: white;
     border: solid black 2px;
-    box-shadow: 4px 4px black;
+    box-shadow: 4px 3px black;
 }
 
 .content button {
@@ -42,8 +45,9 @@ button {
     background-color: #FFD966;
     color: black;
     border: solid black 2px;
-    box-shadow: 4px 4px black;
+    box-shadow: 4px 3px black;
     font-weight: bold;
+    margin-top: 10px;
 }
 .dojo button {
     width: 100%;
@@ -52,18 +56,21 @@ button {
     background-color: #93c47d;
     color: black;
     border: solid black 2px;
-    box-shadow: 4px 4px black;
+    box-shadow: 4px 3px black;
     font-weight: bold;  
 }
 
 .right {
     margin-left: 30px;
+    width: 33%;
 }
-
+.left {
+    width: 66%;
+}
 .ninja {
     background-color: #fff;
     margin-top: 30px;
-    padding: 30px;
+    padding: 20px 0;
     border: 2px solid #999;
     display: flex;
     align-items: center;
@@ -84,4 +91,8 @@ button {
 
 .ninja p {
     flex: 3;
+}
+
+h2, p {
+    padding: 5px;
 }
