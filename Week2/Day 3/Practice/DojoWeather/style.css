@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    color: white;
+    background-color: #9FC5F8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 150px;
+}
+
+.locations {
+    width: 50%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.container {
+    width: 79%;
+    margin: 0 auto;
+}
+
+.top {
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid black 2px;
+}
+
+.week {
+    display: flex;
+    padding: 20px 0;
+    gap: 15px;
+}
+
+.days {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEEEE;
+    gap: 30px;
+    padding: 15px;
+}
+
+img {
+    width: 75%;
+    border-radius: 50%;
+}
+
+.degrees {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.degrees p {
+    color: red;
+    font-size: 22px;
+    font-weight: 800;
+}
+span {
+    color: blue;
+    font-size: 22px;
+    font-weight: 800;
+}
+.cookies {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    border: solid black 2px;
+    border-radius: 3px;
+    width: 77%;
+}
+.cookies img {
+    width: 10%;
+}
+
+.cookies button {
+    width: 150px;
+    background-color: #9FC5F8;
+    padding: 5px;
+    box-shadow: 3px 2px black;
+}
+.header button {
+    color: white;
+    font-size: 22px;
+    background-color: #9FC5F8;
+    padding: 5px;
+    border: solid 1px transparent;
+}
