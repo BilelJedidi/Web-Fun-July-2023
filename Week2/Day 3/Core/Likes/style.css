@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+header {
+    text-align: left;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+}
+.container {
+    margin-left: 10px;
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+main h1 {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 75%;
+}
+.left {
+    width: 25%;
+}
+.avatar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border: solid black 2px;
+    justify-content: center;
+    align-items: center;
+    height: 65%;
+}
+img {
+    width: 50%;
+}
+.usercard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: solid 2px black;
+    
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.like {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    padding: 5;
+    width: 75px;
+    height: 30px;
+    color: black;
+    background-color: #FFD966;
+    border: solid black 1px;
+    box-shadow: 3px 2px black;
+}
+
